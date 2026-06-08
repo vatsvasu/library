@@ -120,6 +120,6 @@ closed.onclick = e => {
 document.onclick = e => {
     if (e.target == popup) {
         popup.style.visibility = 'hidden';
-        popup.style.opacity = 0;
+        popup.style.opacity = 0; // comment
     }
 }
