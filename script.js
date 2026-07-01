@@ -118,7 +118,7 @@ closed.onclick = e => {
     popup.style.opacity = 0;
 }
 document.onclick = e => {
-    if (e.target == popup) {
+    if (e.target == popup) {// bekoop aj
         popup.style.visibility = 'hidden';//comment2
         popup.style.opacity = 0; // comment
     }
